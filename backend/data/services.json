@@ -1,0 +1,34 @@
+[
+    {
+        "id": "SV001",
+        "name": "Bireysel Bankacılık"
+    },
+    {
+        "id": "SV002",
+        "name": "KOBİ Bankacılığı"
+    },
+    {
+        "id": "SV003",
+        "name": "Kurumsal Bankacılık"
+    },
+    {
+        "id": "SV004",
+        "name": "Yatırım Danışmanlığı"
+    },
+    {
+        "id": "SV005",
+        "name": "Sigorta Hizmetleri"
+    },
+    {
+        "id": "SV006",
+        "name": "Dijital Bankacılık Destek"
+    },
+    {
+        "id": "SV007",
+        "name": "Ödeme Sistemleri"
+    },
+    {
+        "id": "SV008",
+        "name": "Engelli Müşteri Desteği"
+    }
+]

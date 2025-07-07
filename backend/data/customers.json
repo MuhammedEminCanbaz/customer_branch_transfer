@@ -1,0 +1,2202 @@
+[
+  {
+    "id": "C001",
+    "name": "Naz Kaya",
+    "branchId": "S004",
+    "locationText": "Güngören, İstanbul",
+    "location": {
+      "lat": 41.0105,
+      "lng": 28.8741
+    },
+    "needsDisabilitySupport": false
+  },
+  {
+    "id": "C002",
+    "name": "Ozan Türkmen",
+    "branchId": "S022",
+    "locationText": "Küçükçekmece, İstanbul",
+    "location": {
+      "lat": 41.0092,
+      "lng": 28.7757
+    },
+    "needsDisabilitySupport": false
+  },
+  {
+    "id": "C003",
+    "name": "Arda Koç",
+    "branchId": "S003",
+    "locationText": "Sancaktepe, İstanbul",
+    "location": {
+      "lat": 41.009,
+      "lng": 29.2109
+    },
+    "needsDisabilitySupport": false
+  },
+  {
+    "id": "C004",
+    "name": "Ayşe Işık",
+    "branchId": "S015",
+    "locationText": "Fatih, İstanbul",
+    "location": {
+      "lat": 41.0203,
+      "lng": 28.9339
+    },
+    "needsDisabilitySupport": false
+  },
+  {
+    "id": "C005",
+    "name": "Berke Yalçın",
+    "branchId": "S005",
+    "locationText": "Bayrampaşa, İstanbul",
+    "location": {
+      "lat": 41.0349,
+      "lng": 28.9122
+    },
+    "needsDisabilitySupport": false
+  },
+  {
+    "id": "C006",
+    "name": "Gamze Özkan",
+    "branchId": "S026",
+    "locationText": "Maltepe, İstanbul",
+    "location": {
+      "lat": 40.9339,
+      "lng": 29.165
+    },
+    "needsDisabilitySupport": true
+  },
+  {
+    "id": "C007",
+    "name": "Mehmet Öztürk",
+    "branchId": "S018",
+    "locationText": "Beykoz, İstanbul",
+    "location": {
+      "lat": 41.1271,
+      "lng": 29.0978
+    },
+    "needsDisabilitySupport": false
+  },
+  {
+    "id": "C008",
+    "name": "Serkan Koç",
+    "branchId": "S005",
+    "locationText": "Bakırköy, İstanbul",
+    "location": {
+      "lat": 40.9804,
+      "lng": 28.8724
+    },
+    "needsDisabilitySupport": false
+  },
+  {
+    "id": "C009",
+    "name": "Gamze Aydın",
+    "branchId": "S030",
+    "locationText": "Beylikdüzü, İstanbul",
+    "location": {
+      "lat": 41.0133,
+      "lng": 28.6489
+    },
+    "needsDisabilitySupport": false
+  },
+  {
+    "id": "C010",
+    "name": "Emre Tan",
+    "branchId": "S026",
+    "locationText": "Büyükçekmece, İstanbul",
+    "location": {
+      "lat": 41.0248,
+      "lng": 28.5854
+    },
+    "needsDisabilitySupport": true
+  },
+  {
+    "id": "C011",
+    "name": "Burak Avcı",
+    "branchId": "S026",
+    "locationText": "Arnavutköy, İstanbul",
+    "location": {
+      "lat": 41.1864,
+      "lng": 28.7389
+    },
+    "needsDisabilitySupport": false
+  },
+  {
+    "id": "C012",
+    "name": "Berke Avcı",
+    "branchId": "S014",
+    "locationText": "Pendik, İstanbul",
+    "location": {
+      "lat": 40.8796,
+      "lng": 29.258
+    },
+    "needsDisabilitySupport": false
+  },
+  {
+    "id": "C013",
+    "name": "Gamze Çelik",
+    "branchId": "S011",
+    "locationText": "Beyoğlu, İstanbul",
+    "location": {
+      "lat": 41.0371,
+      "lng": 28.9774
+    },
+    "needsDisabilitySupport": false
+  },
+  {
+    "id": "C014",
+    "name": "Tuna Özkan",
+    "branchId": "S001",
+    "locationText": "Maltepe, İstanbul",
+    "location": {
+      "lat": 40.9339,
+      "lng": 29.165
+    },
+    "needsDisabilitySupport": false
+  },
+  {
+    "id": "C015",
+    "name": "Naz Polat",
+    "branchId": "S006",
+    "locationText": "Çekmeköy, İstanbul",
+    "location": {
+      "lat": 41.0323,
+      "lng": 29.1695
+    },
+    "needsDisabilitySupport": false
+  },
+  {
+    "id": "C016",
+    "name": "Ayşe Şahin",
+    "branchId": "S028",
+    "locationText": "Küçükçekmece, İstanbul",
+    "location": {
+      "lat": 41.0092,
+      "lng": 28.7757
+    },
+    "needsDisabilitySupport": true
+  },
+  {
+    "id": "C017",
+    "name": "Ali Özkan",
+    "branchId": "S004",
+    "locationText": "Bağcılar, İstanbul",
+    "location": {
+      "lat": 41.0341,
+      "lng": 28.833
+    },
+    "needsDisabilitySupport": false
+  },
+  {
+    "id": "C018",
+    "name": "Selin Çelik",
+    "branchId": "S009",
+    "locationText": "Eyüp, İstanbul",
+    "location": {
+      "lat": 41.0551,
+      "lng": 28.9346
+    },
+    "needsDisabilitySupport": false
+  },
+  {
+    "id": "C019",
+    "name": "Fatma Polat",
+    "branchId": "S027",
+    "locationText": "Beyoğlu, İstanbul",
+    "location": {
+      "lat": 41.0371,
+      "lng": 28.9774
+    },
+    "needsDisabilitySupport": false
+  },
+  {
+    "id": "C020",
+    "name": "Ozan Demir",
+    "branchId": "S019",
+    "locationText": "Beyoğlu, İstanbul",
+    "location": {
+      "lat": 41.0371,
+      "lng": 28.9774
+    },
+    "needsDisabilitySupport": false
+  },
+  {
+    "id": "C021",
+    "name": "Elif Işık",
+    "branchId": "S011",
+    "locationText": "Avcılar, İstanbul",
+    "location": {
+      "lat": 40.9792,
+      "lng": 28.7214
+    },
+    "needsDisabilitySupport": false
+  },
+  {
+    "id": "C022",
+    "name": "Barış Kaya",
+    "branchId": "S030",
+    "locationText": "Büyükçekmece, İstanbul",
+    "location": {
+      "lat": 41.0248,
+      "lng": 28.5854
+    },
+    "needsDisabilitySupport": true
+  },
+  {
+    "id": "C023",
+    "name": "Yasemin Kaya",
+    "branchId": "S016",
+    "locationText": "Küçükçekmece, İstanbul",
+    "location": {
+      "lat": 41.0092,
+      "lng": 28.7757
+    },
+    "needsDisabilitySupport": false
+  },
+  {
+    "id": "C024",
+    "name": "Kerem Aksoy",
+    "branchId": "S006",
+    "locationText": "Gaziosmanpaşa, İstanbul",
+    "location": {
+      "lat": 41.0576,
+      "lng": 28.9153
+    },
+    "needsDisabilitySupport": true
+  },
+  {
+    "id": "C025",
+    "name": "Mehmet Güler",
+    "branchId": "S006",
+    "locationText": "Bakırköy, İstanbul",
+    "location": {
+      "lat": 40.9804,
+      "lng": 28.8724
+    },
+    "needsDisabilitySupport": false
+  },
+  {
+    "id": "C026",
+    "name": "Buse Özkan",
+    "branchId": "S019",
+    "locationText": "Beyoğlu, İstanbul",
+    "location": {
+      "lat": 41.0371,
+      "lng": 28.9774
+    },
+    "needsDisabilitySupport": true
+  },
+  {
+    "id": "C027",
+    "name": "Cansu Can",
+    "branchId": "S020",
+    "locationText": "Gaziosmanpaşa, İstanbul",
+    "location": {
+      "lat": 41.0576,
+      "lng": 28.9153
+    },
+    "needsDisabilitySupport": false
+  },
+  {
+    "id": "C028",
+    "name": "Tuna Tan",
+    "branchId": "S009",
+    "locationText": "Bahçelievler, İstanbul",
+    "location": {
+      "lat": 40.9977,
+      "lng": 28.8506
+    },
+    "needsDisabilitySupport": false
+  },
+  {
+    "id": "C029",
+    "name": "Tuna Can",
+    "branchId": "S017",
+    "locationText": "Pendik, İstanbul",
+    "location": {
+      "lat": 40.8796,
+      "lng": 29.258
+    },
+    "needsDisabilitySupport": false
+  },
+  {
+    "id": "C030",
+    "name": "Ali Işık",
+    "branchId": "S009",
+    "locationText": "Kartal, İstanbul",
+    "location": {
+      "lat": 40.8999,
+      "lng": 29.1936
+    },
+    "needsDisabilitySupport": false
+  },
+  {
+    "id": "C031",
+    "name": "Can Avcı",
+    "branchId": "S024",
+    "locationText": "Kartal, İstanbul",
+    "location": {
+      "lat": 40.8999,
+      "lng": 29.1936
+    },
+    "needsDisabilitySupport": true
+  },
+  {
+    "id": "C032",
+    "name": "Hakan Çelik",
+    "branchId": "S002",
+    "locationText": "Kadıköy, İstanbul",
+    "location": {
+      "lat": 40.9903,
+      "lng": 29.0205
+    },
+    "needsDisabilitySupport": false
+  },
+  {
+    "id": "C033",
+    "name": "Deniz Kaya",
+    "branchId": "S027",
+    "locationText": "Bakırköy, İstanbul",
+    "location": {
+      "lat": 40.9804,
+      "lng": 28.8724
+    },
+    "needsDisabilitySupport": false
+  },
+  {
+    "id": "C034",
+    "name": "Mert Güler",
+    "branchId": "S015",
+    "locationText": "Bağcılar, İstanbul",
+    "location": {
+      "lat": 41.0341,
+      "lng": 28.833
+    },
+    "needsDisabilitySupport": true
+  },
+  {
+    "id": "C035",
+    "name": "Kerem Can",
+    "branchId": "S005",
+    "locationText": "Başakşehir, İstanbul",
+    "location": {
+      "lat": 41.0837,
+      "lng": 28.8169
+    },
+    "needsDisabilitySupport": false
+  },
+  {
+    "id": "C036",
+    "name": "Ali Can",
+    "branchId": "S003",
+    "locationText": "Ataşehir, İstanbul",
+    "location": {
+      "lat": 40.9833,
+      "lng": 29.1278
+    },
+    "needsDisabilitySupport": false
+  },
+  {
+    "id": "C037",
+    "name": "Selin Aksoy",
+    "branchId": "S026",
+    "locationText": "Esenyurt, İstanbul",
+    "location": {
+      "lat": 41.0412,
+      "lng": 28.6939
+    },
+    "needsDisabilitySupport": false
+  },
+  {
+    "id": "C038",
+    "name": "Sibel Eren",
+    "branchId": "S030",
+    "locationText": "Fatih, İstanbul",
+    "location": {
+      "lat": 41.0203,
+      "lng": 28.9339
+    },
+    "needsDisabilitySupport": false
+  },
+  {
+    "id": "C039",
+    "name": "Bora Kaya",
+    "branchId": "S030",
+    "locationText": "Çatalca, İstanbul",
+    "location": {
+      "lat": 41.1421,
+      "lng": 28.4575
+    },
+    "needsDisabilitySupport": true
+  },
+  {
+    "id": "C040",
+    "name": "Cansu Demir",
+    "branchId": "S007",
+    "locationText": "Avcılar, İstanbul",
+    "location": {
+      "lat": 40.9792,
+      "lng": 28.7214
+    },
+    "needsDisabilitySupport": false
+  },
+  {
+    "id": "C041",
+    "name": "Sibel Kaya",
+    "branchId": "S027",
+    "locationText": "Adalar, İstanbul",
+    "location": {
+      "lat": 40.8747,
+      "lng": 29.1294
+    },
+    "needsDisabilitySupport": false
+  },
+  {
+    "id": "C042",
+    "name": "Naz Demir",
+    "branchId": "S002",
+    "locationText": "Avcılar, İstanbul",
+    "location": {
+      "lat": 40.9792,
+      "lng": 28.7214
+    },
+    "needsDisabilitySupport": false
+  },
+  {
+    "id": "C043",
+    "name": "Barış Polat",
+    "branchId": "S008",
+    "locationText": "Bahçelievler, İstanbul",
+    "location": {
+      "lat": 40.9977,
+      "lng": 28.8506
+    },
+    "needsDisabilitySupport": false
+  },
+  {
+    "id": "C044",
+    "name": "Ahmet Aydın",
+    "branchId": "S024",
+    "locationText": "Beyoğlu, İstanbul",
+    "location": {
+      "lat": 41.0371,
+      "lng": 28.9774
+    },
+    "needsDisabilitySupport": true
+  },
+  {
+    "id": "C045",
+    "name": "Tuna Avcı",
+    "branchId": "S023",
+    "locationText": "Ataşehir, İstanbul",
+    "location": {
+      "lat": 40.9833,
+      "lng": 29.1278
+    },
+    "needsDisabilitySupport": false
+  },
+  {
+    "id": "C046",
+    "name": "Burak Aydın",
+    "branchId": "S005",
+    "locationText": "Adalar, İstanbul",
+    "location": {
+      "lat": 40.8747,
+      "lng": 29.1294
+    },
+    "needsDisabilitySupport": false
+  },
+  {
+    "id": "C047",
+    "name": "Berk Eren",
+    "branchId": "S002",
+    "locationText": "Bakırköy, İstanbul",
+    "location": {
+      "lat": 40.9804,
+      "lng": 28.8724
+    },
+    "needsDisabilitySupport": false
+  },
+  {
+    "id": "C048",
+    "name": "Yasemin Koç",
+    "branchId": "S006",
+    "locationText": "Bağcılar, İstanbul",
+    "location": {
+      "lat": 41.0341,
+      "lng": 28.833
+    },
+    "needsDisabilitySupport": false
+  },
+  {
+    "id": "C049",
+    "name": "Deniz Tan",
+    "branchId": "S016",
+    "locationText": "Adalar, İstanbul",
+    "location": {
+      "lat": 40.8747,
+      "lng": 29.1294
+    },
+    "needsDisabilitySupport": false
+  },
+  {
+    "id": "C050",
+    "name": "Sena Tan",
+    "branchId": "S025",
+    "locationText": "Maltepe, İstanbul",
+    "location": {
+      "lat": 40.9339,
+      "lng": 29.165
+    },
+    "needsDisabilitySupport": true
+  },
+  {
+    "id": "C051",
+    "name": "Bora Yalçın",
+    "branchId": "S007",
+    "locationText": "Gaziosmanpaşa, İstanbul",
+    "location": {
+      "lat": 41.0576,
+      "lng": 28.9153
+    },
+    "needsDisabilitySupport": true
+  },
+  {
+    "id": "C052",
+    "name": "Berk Aslan",
+    "branchId": "S009",
+    "locationText": "Kartal, İstanbul",
+    "location": {
+      "lat": 40.8999,
+      "lng": 29.1936
+    },
+    "needsDisabilitySupport": true
+  },
+  {
+    "id": "C053",
+    "name": "Zeynep Polat",
+    "branchId": "S001",
+    "locationText": "Başakşehir, İstanbul",
+    "location": {
+      "lat": 41.0837,
+      "lng": 28.8169
+    },
+    "needsDisabilitySupport": false
+  },
+  {
+    "id": "C054",
+    "name": "Merve Tan",
+    "branchId": "S013",
+    "locationText": "Çatalca, İstanbul",
+    "location": {
+      "lat": 41.1421,
+      "lng": 28.4575
+    },
+    "needsDisabilitySupport": false
+  },
+  {
+    "id": "C055",
+    "name": "Mert Avcı",
+    "branchId": "S024",
+    "locationText": "Beykoz, İstanbul",
+    "location": {
+      "lat": 41.1271,
+      "lng": 29.0978
+    },
+    "needsDisabilitySupport": false
+  },
+  {
+    "id": "C056",
+    "name": "Zeynep Türkmen",
+    "branchId": "S027",
+    "locationText": "Büyükçekmece, İstanbul",
+    "location": {
+      "lat": 41.0248,
+      "lng": 28.5854
+    },
+    "needsDisabilitySupport": false
+  },
+  {
+    "id": "C057",
+    "name": "Cem Demir",
+    "branchId": "S020",
+    "locationText": "Avcılar, İstanbul",
+    "location": {
+      "lat": 40.9792,
+      "lng": 28.7214
+    },
+    "needsDisabilitySupport": false
+  },
+  {
+    "id": "C058",
+    "name": "Elif Aslan",
+    "branchId": "S018",
+    "locationText": "Avcılar, İstanbul",
+    "location": {
+      "lat": 40.9792,
+      "lng": 28.7214
+    },
+    "needsDisabilitySupport": true
+  },
+  {
+    "id": "C059",
+    "name": "Naz Aydın",
+    "branchId": "S007",
+    "locationText": "Ataşehir, İstanbul",
+    "location": {
+      "lat": 40.9833,
+      "lng": 29.1278
+    },
+    "needsDisabilitySupport": false
+  },
+  {
+    "id": "C060",
+    "name": "Gamze Demir",
+    "branchId": "S005",
+    "locationText": "Gaziosmanpaşa, İstanbul",
+    "location": {
+      "lat": 41.0576,
+      "lng": 28.9153
+    },
+    "needsDisabilitySupport": false
+  },
+  {
+    "id": "C061",
+    "name": "Buse Avcı",
+    "branchId": "S008",
+    "locationText": "Başakşehir, İstanbul",
+    "location": {
+      "lat": 41.0837,
+      "lng": 28.8169
+    },
+    "needsDisabilitySupport": false
+  },
+  {
+    "id": "C062",
+    "name": "Berk Işık",
+    "branchId": "S006",
+    "locationText": "Eyüp, İstanbul",
+    "location": {
+      "lat": 41.0551,
+      "lng": 28.9346
+    },
+    "needsDisabilitySupport": false
+  },
+  {
+    "id": "C063",
+    "name": "Buse Öztürk",
+    "branchId": "S011",
+    "locationText": "Eyüp, İstanbul",
+    "location": {
+      "lat": 41.0551,
+      "lng": 28.9346
+    },
+    "needsDisabilitySupport": false
+  },
+  {
+    "id": "C064",
+    "name": "Fatma Güler",
+    "branchId": "S023",
+    "locationText": "Kağıthane, İstanbul",
+    "location": {
+      "lat": 41.0717,
+      "lng": 28.9646
+    },
+    "needsDisabilitySupport": false
+  },
+  {
+    "id": "C065",
+    "name": "Betül Koç",
+    "branchId": "S021",
+    "locationText": "Gaziosmanpaşa, İstanbul",
+    "location": {
+      "lat": 41.0576,
+      "lng": 28.9153
+    },
+    "needsDisabilitySupport": false
+  },
+  {
+    "id": "C066",
+    "name": "Ozan Aksoy",
+    "branchId": "S008",
+    "locationText": "Başakşehir, İstanbul",
+    "location": {
+      "lat": 41.0837,
+      "lng": 28.8169
+    },
+    "needsDisabilitySupport": true
+  },
+  {
+    "id": "C067",
+    "name": "Tuna Polat",
+    "branchId": "S018",
+    "locationText": "Beykoz, İstanbul",
+    "location": {
+      "lat": 41.1271,
+      "lng": 29.0978
+    },
+    "needsDisabilitySupport": true
+  },
+  {
+    "id": "C068",
+    "name": "Can Türkmen",
+    "branchId": "S004",
+    "locationText": "Kadıköy, İstanbul",
+    "location": {
+      "lat": 40.9903,
+      "lng": 29.0205
+    },
+    "needsDisabilitySupport": false
+  },
+  {
+    "id": "C069",
+    "name": "Hakan Koç",
+    "branchId": "S021",
+    "locationText": "Başakşehir, İstanbul",
+    "location": {
+      "lat": 41.0837,
+      "lng": 28.8169
+    },
+    "needsDisabilitySupport": false
+  },
+  {
+    "id": "C070",
+    "name": "Gamze Aksoy",
+    "branchId": "S030",
+    "locationText": "Esenyurt, İstanbul",
+    "location": {
+      "lat": 41.0412,
+      "lng": 28.6939
+    },
+    "needsDisabilitySupport": false
+  },
+  {
+    "id": "C071",
+    "name": "Tuna Aksoy",
+    "branchId": "S007",
+    "locationText": "Bayrampaşa, İstanbul",
+    "location": {
+      "lat": 41.0349,
+      "lng": 28.9122
+    },
+    "needsDisabilitySupport": false
+  },
+  {
+    "id": "C072",
+    "name": "Fatma Şahin",
+    "branchId": "S018",
+    "locationText": "Ataşehir, İstanbul",
+    "location": {
+      "lat": 40.9833,
+      "lng": 29.1278
+    },
+    "needsDisabilitySupport": false
+  },
+  {
+    "id": "C073",
+    "name": "Can Şahin",
+    "branchId": "S011",
+    "locationText": "Bağcılar, İstanbul",
+    "location": {
+      "lat": 41.0341,
+      "lng": 28.833
+    },
+    "needsDisabilitySupport": false
+  },
+  {
+    "id": "C074",
+    "name": "Gamze Yalçın",
+    "branchId": "S024",
+    "locationText": "Sancaktepe, İstanbul",
+    "location": {
+      "lat": 41.009,
+      "lng": 29.2109
+    },
+    "needsDisabilitySupport": false
+  },
+  {
+    "id": "C075",
+    "name": "Melis Özkan",
+    "branchId": "S009",
+    "locationText": "Başakşehir, İstanbul",
+    "location": {
+      "lat": 41.0837,
+      "lng": 28.8169
+    },
+    "needsDisabilitySupport": true
+  },
+  {
+    "id": "C076",
+    "name": "Serkan Yılmaz",
+    "branchId": "S022",
+    "locationText": "Arnavutköy, İstanbul",
+    "location": {
+      "lat": 41.1864,
+      "lng": 28.7389
+    },
+    "needsDisabilitySupport": false
+  },
+  {
+    "id": "C077",
+    "name": "Sena Eren",
+    "branchId": "S026",
+    "locationText": "Bahçelievler, İstanbul",
+    "location": {
+      "lat": 40.9977,
+      "lng": 28.8506
+    },
+    "needsDisabilitySupport": false
+  },
+  {
+    "id": "C078",
+    "name": "Ayşe Özkan",
+    "branchId": "S001",
+    "locationText": "Sancaktepe, İstanbul",
+    "location": {
+      "lat": 41.009,
+      "lng": 29.2109
+    },
+    "needsDisabilitySupport": false
+  },
+  {
+    "id": "C079",
+    "name": "Sena Polat",
+    "branchId": "S008",
+    "locationText": "Bakırköy, İstanbul",
+    "location": {
+      "lat": 40.9804,
+      "lng": 28.8724
+    },
+    "needsDisabilitySupport": false
+  },
+  {
+    "id": "C080",
+    "name": "Tolga Can",
+    "branchId": "S018",
+    "locationText": "Maltepe, İstanbul",
+    "location": {
+      "lat": 40.9339,
+      "lng": 29.165
+    },
+    "needsDisabilitySupport": false
+  },
+  {
+    "id": "C081",
+    "name": "Emre Can",
+    "branchId": "S005",
+    "locationText": "Beyoğlu, İstanbul",
+    "location": {
+      "lat": 41.0371,
+      "lng": 28.9774
+    },
+    "needsDisabilitySupport": false
+  },
+  {
+    "id": "C082",
+    "name": "Selin Tan",
+    "branchId": "S005",
+    "locationText": "Pendik, İstanbul",
+    "location": {
+      "lat": 40.8796,
+      "lng": 29.258
+    },
+    "needsDisabilitySupport": true
+  },
+  {
+    "id": "C083",
+    "name": "Ozan Can",
+    "branchId": "S026",
+    "locationText": "Arnavutköy, İstanbul",
+    "location": {
+      "lat": 41.1864,
+      "lng": 28.7389
+    },
+    "needsDisabilitySupport": false
+  },
+  {
+    "id": "C084",
+    "name": "Mert Demir",
+    "branchId": "S019",
+    "locationText": "Bayrampaşa, İstanbul",
+    "location": {
+      "lat": 41.0349,
+      "lng": 28.9122
+    },
+    "needsDisabilitySupport": false
+  },
+  {
+    "id": "C085",
+    "name": "Serkan Aksoy",
+    "branchId": "S010",
+    "locationText": "Sancaktepe, İstanbul",
+    "location": {
+      "lat": 41.009,
+      "lng": 29.2109
+    },
+    "needsDisabilitySupport": false
+  },
+  {
+    "id": "C086",
+    "name": "Berk Demir",
+    "branchId": "S021",
+    "locationText": "Gaziosmanpaşa, İstanbul",
+    "location": {
+      "lat": 41.0576,
+      "lng": 28.9153
+    },
+    "needsDisabilitySupport": false
+  },
+  {
+    "id": "C087",
+    "name": "Cansu Eren",
+    "branchId": "S024",
+    "locationText": "Küçükçekmece, İstanbul",
+    "location": {
+      "lat": 41.0092,
+      "lng": 28.7757
+    },
+    "needsDisabilitySupport": false
+  },
+  {
+    "id": "C088",
+    "name": "Burak Polat",
+    "branchId": "S011",
+    "locationText": "Çatalca, İstanbul",
+    "location": {
+      "lat": 41.1421,
+      "lng": 28.4575
+    },
+    "needsDisabilitySupport": false
+  },
+  {
+    "id": "C089",
+    "name": "Naz Yalçın",
+    "branchId": "S026",
+    "locationText": "Eyüp, İstanbul",
+    "location": {
+      "lat": 41.0551,
+      "lng": 28.9346
+    },
+    "needsDisabilitySupport": false
+  },
+  {
+    "id": "C090",
+    "name": "Ozan Şahin",
+    "branchId": "S009",
+    "locationText": "Pendik, İstanbul",
+    "location": {
+      "lat": 40.8796,
+      "lng": 29.258
+    },
+    "needsDisabilitySupport": false
+  },
+  {
+    "id": "C091",
+    "name": "Betül Aydın",
+    "branchId": "S020",
+    "locationText": "Bayrampaşa, İstanbul",
+    "location": {
+      "lat": 41.0349,
+      "lng": 28.9122
+    },
+    "needsDisabilitySupport": false
+  },
+  {
+    "id": "C092",
+    "name": "Serkan Işık",
+    "branchId": "S003",
+    "locationText": "Maltepe, İstanbul",
+    "location": {
+      "lat": 40.9339,
+      "lng": 29.165
+    },
+    "needsDisabilitySupport": true
+  },
+  {
+    "id": "C093",
+    "name": "Emre Şahin",
+    "branchId": "S003",
+    "locationText": "Kadıköy, İstanbul",
+    "location": {
+      "lat": 40.9903,
+      "lng": 29.0205
+    },
+    "needsDisabilitySupport": false
+  },
+  {
+    "id": "C094",
+    "name": "Serkan Aydın",
+    "branchId": "S028",
+    "locationText": "Adalar, İstanbul",
+    "location": {
+      "lat": 40.8747,
+      "lng": 29.1294
+    },
+    "needsDisabilitySupport": false
+  },
+  {
+    "id": "C095",
+    "name": "Betül Tan",
+    "branchId": "S025",
+    "locationText": "Güngören, İstanbul",
+    "location": {
+      "lat": 41.0105,
+      "lng": 28.8741
+    },
+    "needsDisabilitySupport": true
+  },
+  {
+    "id": "C096",
+    "name": "Mehmet Yalçın",
+    "branchId": "S005",
+    "locationText": "Güngören, İstanbul",
+    "location": {
+      "lat": 41.0105,
+      "lng": 28.8741
+    },
+    "needsDisabilitySupport": false
+  },
+  {
+    "id": "C097",
+    "name": "Sena Çelik",
+    "branchId": "S023",
+    "locationText": "Adalar, İstanbul",
+    "location": {
+      "lat": 40.8747,
+      "lng": 29.1294
+    },
+    "needsDisabilitySupport": false
+  },
+  {
+    "id": "C098",
+    "name": "Elif Şahin",
+    "branchId": "S003",
+    "locationText": "Maltepe, İstanbul",
+    "location": {
+      "lat": 40.9339,
+      "lng": 29.165
+    },
+    "needsDisabilitySupport": false
+  },
+  {
+    "id": "C099",
+    "name": "Ece Koç",
+    "branchId": "S016",
+    "locationText": "Büyükçekmece, İstanbul",
+    "location": {
+      "lat": 41.0248,
+      "lng": 28.5854
+    },
+    "needsDisabilitySupport": false
+  },
+  {
+    "id": "C100",
+    "name": "Esra Aksoy",
+    "branchId": "S027",
+    "locationText": "Gaziosmanpaşa, İstanbul",
+    "location": {
+      "lat": 41.0576,
+      "lng": 28.9153
+    },
+    "needsDisabilitySupport": false
+  },
+  {
+    "id": "C101",
+    "name": "Mert Polat",
+    "branchId": "S027",
+    "locationText": "Çekmeköy, İstanbul",
+    "location": {
+      "lat": 41.0323,
+      "lng": 29.1695
+    },
+    "needsDisabilitySupport": false
+  },
+  {
+    "id": "C102",
+    "name": "Ece Şahin",
+    "branchId": "S002",
+    "locationText": "Güngören, İstanbul",
+    "location": {
+      "lat": 41.0105,
+      "lng": 28.8741
+    },
+    "needsDisabilitySupport": false
+  },
+  {
+    "id": "C103",
+    "name": "Merve Aksoy",
+    "branchId": "S005",
+    "locationText": "Güngören, İstanbul",
+    "location": {
+      "lat": 41.0105,
+      "lng": 28.8741
+    },
+    "needsDisabilitySupport": false
+  },
+  {
+    "id": "C104",
+    "name": "Mert Yalçın",
+    "branchId": "S029",
+    "locationText": "Beykoz, İstanbul",
+    "location": {
+      "lat": 41.1271,
+      "lng": 29.0978
+    },
+    "needsDisabilitySupport": true
+  },
+  {
+    "id": "C105",
+    "name": "Yasemin Demir",
+    "branchId": "S003",
+    "locationText": "Adalar, İstanbul",
+    "location": {
+      "lat": 40.8747,
+      "lng": 29.1294
+    },
+    "needsDisabilitySupport": false
+  },
+  {
+    "id": "C106",
+    "name": "Ahmet Yalçın",
+    "branchId": "S017",
+    "locationText": "Başakşehir, İstanbul",
+    "location": {
+      "lat": 41.0837,
+      "lng": 28.8169
+    },
+    "needsDisabilitySupport": false
+  },
+  {
+    "id": "C107",
+    "name": "Tuna Güler",
+    "branchId": "S016",
+    "locationText": "Beykoz, İstanbul",
+    "location": {
+      "lat": 41.1271,
+      "lng": 29.0978
+    },
+    "needsDisabilitySupport": false
+  },
+  {
+    "id": "C108",
+    "name": "Mert Çelik",
+    "branchId": "S017",
+    "locationText": "Sancaktepe, İstanbul",
+    "location": {
+      "lat": 41.009,
+      "lng": 29.2109
+    },
+    "needsDisabilitySupport": false
+  },
+  {
+    "id": "C109",
+    "name": "Cansu Yılmaz",
+    "branchId": "S030",
+    "locationText": "Kartal, İstanbul",
+    "location": {
+      "lat": 40.8999,
+      "lng": 29.1936
+    },
+    "needsDisabilitySupport": false
+  },
+  {
+    "id": "C110",
+    "name": "Can Can",
+    "branchId": "S010",
+    "locationText": "Bakırköy, İstanbul",
+    "location": {
+      "lat": 40.9804,
+      "lng": 28.8724
+    },
+    "needsDisabilitySupport": false
+  },
+  {
+    "id": "C111",
+    "name": "Cem Can",
+    "branchId": "S027",
+    "locationText": "Bayrampaşa, İstanbul",
+    "location": {
+      "lat": 41.0349,
+      "lng": 28.9122
+    },
+    "needsDisabilitySupport": false
+  },
+  {
+    "id": "C112",
+    "name": "Ayşe Eren",
+    "branchId": "S006",
+    "locationText": "Çatalca, İstanbul",
+    "location": {
+      "lat": 41.1421,
+      "lng": 28.4575
+    },
+    "needsDisabilitySupport": false
+  },
+  {
+    "id": "C113",
+    "name": "Can Öztürk",
+    "branchId": "S016",
+    "locationText": "Çekmeköy, İstanbul",
+    "location": {
+      "lat": 41.0323,
+      "lng": 29.1695
+    },
+    "needsDisabilitySupport": false
+  },
+  {
+    "id": "C114",
+    "name": "Mert Eren",
+    "branchId": "S028",
+    "locationText": "Fatih, İstanbul",
+    "location": {
+      "lat": 41.0203,
+      "lng": 28.9339
+    },
+    "needsDisabilitySupport": false
+  },
+  {
+    "id": "C115",
+    "name": "Bora Yılmaz",
+    "branchId": "S027",
+    "locationText": "Avcılar, İstanbul",
+    "location": {
+      "lat": 40.9792,
+      "lng": 28.7214
+    },
+    "needsDisabilitySupport": true
+  },
+  {
+    "id": "C116",
+    "name": "Melis Tan",
+    "branchId": "S030",
+    "locationText": "Bağcılar, İstanbul",
+    "location": {
+      "lat": 41.0341,
+      "lng": 28.833
+    },
+    "needsDisabilitySupport": false
+  },
+  {
+    "id": "C117",
+    "name": "Emre Yalçın",
+    "branchId": "S004",
+    "locationText": "Avcılar, İstanbul",
+    "location": {
+      "lat": 40.9792,
+      "lng": 28.7214
+    },
+    "needsDisabilitySupport": true
+  },
+  {
+    "id": "C118",
+    "name": "Gizem Aslan",
+    "branchId": "S026",
+    "locationText": "Gaziosmanpaşa, İstanbul",
+    "location": {
+      "lat": 41.0576,
+      "lng": 28.9153
+    },
+    "needsDisabilitySupport": false
+  },
+  {
+    "id": "C119",
+    "name": "Ahmet Yılmaz",
+    "branchId": "S012",
+    "locationText": "Arnavutköy, İstanbul",
+    "location": {
+      "lat": 41.1864,
+      "lng": 28.7389
+    },
+    "needsDisabilitySupport": false
+  },
+  {
+    "id": "C120",
+    "name": "Emre Eren",
+    "branchId": "S001",
+    "locationText": "Bayrampaşa, İstanbul",
+    "location": {
+      "lat": 41.0349,
+      "lng": 28.9122
+    },
+    "needsDisabilitySupport": false
+  },
+  {
+    "id": "C121",
+    "name": "Berke Kaya",
+    "branchId": "S009",
+    "locationText": "Adalar, İstanbul",
+    "location": {
+      "lat": 40.8747,
+      "lng": 29.1294
+    },
+    "needsDisabilitySupport": true
+  },
+  {
+    "id": "C122",
+    "name": "Tolga Aydın",
+    "branchId": "S022",
+    "locationText": "Bayrampaşa, İstanbul",
+    "location": {
+      "lat": 41.0349,
+      "lng": 28.9122
+    },
+    "needsDisabilitySupport": false
+  },
+  {
+    "id": "C123",
+    "name": "Arda Avcı",
+    "branchId": "S021",
+    "locationText": "Kadıköy, İstanbul",
+    "location": {
+      "lat": 40.9903,
+      "lng": 29.0205
+    },
+    "needsDisabilitySupport": true
+  },
+  {
+    "id": "C124",
+    "name": "Ece Öztürk",
+    "branchId": "S024",
+    "locationText": "Adalar, İstanbul",
+    "location": {
+      "lat": 40.8747,
+      "lng": 29.1294
+    },
+    "needsDisabilitySupport": false
+  },
+  {
+    "id": "C125",
+    "name": "Tuna Kaya",
+    "branchId": "S026",
+    "locationText": "Avcılar, İstanbul",
+    "location": {
+      "lat": 40.9792,
+      "lng": 28.7214
+    },
+    "needsDisabilitySupport": true
+  },
+  {
+    "id": "C126",
+    "name": "Ayşe Kaya",
+    "branchId": "S003",
+    "locationText": "Küçükçekmece, İstanbul",
+    "location": {
+      "lat": 41.0092,
+      "lng": 28.7757
+    },
+    "needsDisabilitySupport": false
+  },
+  {
+    "id": "C127",
+    "name": "Berke Koç",
+    "branchId": "S007",
+    "locationText": "Çekmeköy, İstanbul",
+    "location": {
+      "lat": 41.0323,
+      "lng": 29.1695
+    },
+    "needsDisabilitySupport": false
+  },
+  {
+    "id": "C128",
+    "name": "Ahmet Çelik",
+    "branchId": "S003",
+    "locationText": "Adalar, İstanbul",
+    "location": {
+      "lat": 40.8747,
+      "lng": 29.1294
+    },
+    "needsDisabilitySupport": true
+  },
+  {
+    "id": "C129",
+    "name": "Kerem Özkan",
+    "branchId": "S021",
+    "locationText": "Beykoz, İstanbul",
+    "location": {
+      "lat": 41.1271,
+      "lng": 29.0978
+    },
+    "needsDisabilitySupport": false
+  },
+  {
+    "id": "C130",
+    "name": "Yasemin Avcı",
+    "branchId": "S007",
+    "locationText": "Fatih, İstanbul",
+    "location": {
+      "lat": 41.0203,
+      "lng": 28.9339
+    },
+    "needsDisabilitySupport": false
+  },
+  {
+    "id": "C131",
+    "name": "Buse Polat",
+    "branchId": "S021",
+    "locationText": "Çekmeköy, İstanbul",
+    "location": {
+      "lat": 41.0323,
+      "lng": 29.1695
+    },
+    "needsDisabilitySupport": false
+  },
+  {
+    "id": "C132",
+    "name": "Tuna Öztürk",
+    "branchId": "S027",
+    "locationText": "Adalar, İstanbul",
+    "location": {
+      "lat": 40.8747,
+      "lng": 29.1294
+    },
+    "needsDisabilitySupport": false
+  },
+  {
+    "id": "C133",
+    "name": "Arda Eren",
+    "branchId": "S001",
+    "locationText": "Gaziosmanpaşa, İstanbul",
+    "location": {
+      "lat": 41.0576,
+      "lng": 28.9153
+    },
+    "needsDisabilitySupport": true
+  },
+  {
+    "id": "C134",
+    "name": "Ozan Çelik",
+    "branchId": "S011",
+    "locationText": "Büyükçekmece, İstanbul",
+    "location": {
+      "lat": 41.0248,
+      "lng": 28.5854
+    },
+    "needsDisabilitySupport": false
+  },
+  {
+    "id": "C135",
+    "name": "Ozan Koç",
+    "branchId": "S015",
+    "locationText": "Eyüp, İstanbul",
+    "location": {
+      "lat": 41.0551,
+      "lng": 28.9346
+    },
+    "needsDisabilitySupport": false
+  },
+  {
+    "id": "C136",
+    "name": "Ayşe Güler",
+    "branchId": "S018",
+    "locationText": "Küçükçekmece, İstanbul",
+    "location": {
+      "lat": 41.0092,
+      "lng": 28.7757
+    },
+    "needsDisabilitySupport": false
+  },
+  {
+    "id": "C137",
+    "name": "Ece Aksoy",
+    "branchId": "S003",
+    "locationText": "Çekmeköy, İstanbul",
+    "location": {
+      "lat": 41.0323,
+      "lng": 29.1695
+    },
+    "needsDisabilitySupport": false
+  },
+  {
+    "id": "C138",
+    "name": "Serkan Çelik",
+    "branchId": "S008",
+    "locationText": "Bayrampaşa, İstanbul",
+    "location": {
+      "lat": 41.0349,
+      "lng": 28.9122
+    },
+    "needsDisabilitySupport": false
+  },
+  {
+    "id": "C139",
+    "name": "Burak Koç",
+    "branchId": "S017",
+    "locationText": "Beşiktaş, İstanbul",
+    "location": {
+      "lat": 41.0441,
+      "lng": 29.0017
+    },
+    "needsDisabilitySupport": false
+  },
+  {
+    "id": "C140",
+    "name": "Esra Demir",
+    "branchId": "S025",
+    "locationText": "Maltepe, İstanbul",
+    "location": {
+      "lat": 40.9339,
+      "lng": 29.165
+    },
+    "needsDisabilitySupport": false
+  },
+  {
+    "id": "C141",
+    "name": "Berk Aksoy",
+    "branchId": "S005",
+    "locationText": "Çatalca, İstanbul",
+    "location": {
+      "lat": 41.1421,
+      "lng": 28.4575
+    },
+    "needsDisabilitySupport": false
+  },
+  {
+    "id": "C142",
+    "name": "Arda Yılmaz",
+    "branchId": "S029",
+    "locationText": "Avcılar, İstanbul",
+    "location": {
+      "lat": 40.9792,
+      "lng": 28.7214
+    },
+    "needsDisabilitySupport": false
+  },
+  {
+    "id": "C143",
+    "name": "Sibel Özkan",
+    "branchId": "S009",
+    "locationText": "Büyükçekmece, İstanbul",
+    "location": {
+      "lat": 41.0248,
+      "lng": 28.5854
+    },
+    "needsDisabilitySupport": true
+  },
+  {
+    "id": "C144",
+    "name": "Mehmet Aksoy",
+    "branchId": "S006",
+    "locationText": "Bahçelievler, İstanbul",
+    "location": {
+      "lat": 40.9977,
+      "lng": 28.8506
+    },
+    "needsDisabilitySupport": false
+  },
+  {
+    "id": "C145",
+    "name": "Sibel Türkmen",
+    "branchId": "S010",
+    "locationText": "Güngören, İstanbul",
+    "location": {
+      "lat": 41.0105,
+      "lng": 28.8741
+    },
+    "needsDisabilitySupport": false
+  },
+  {
+    "id": "C146",
+    "name": "Cem Çelik",
+    "branchId": "S021",
+    "locationText": "Esenler, İstanbul",
+    "location": {
+      "lat": 41.0542,
+      "lng": 28.8676
+    },
+    "needsDisabilitySupport": true
+  },
+  {
+    "id": "C147",
+    "name": "Berke Aslan",
+    "branchId": "S006",
+    "locationText": "Beykoz, İstanbul",
+    "location": {
+      "lat": 41.1271,
+      "lng": 29.0978
+    },
+    "needsDisabilitySupport": false
+  },
+  {
+    "id": "C148",
+    "name": "Esra Yalçın",
+    "branchId": "S023",
+    "locationText": "Gaziosmanpaşa, İstanbul",
+    "location": {
+      "lat": 41.0576,
+      "lng": 28.9153
+    },
+    "needsDisabilitySupport": false
+  },
+  {
+    "id": "C149",
+    "name": "Berk Özkan",
+    "branchId": "S020",
+    "locationText": "Başakşehir, İstanbul",
+    "location": {
+      "lat": 41.0837,
+      "lng": 28.8169
+    },
+    "needsDisabilitySupport": false
+  },
+  {
+    "id": "C150",
+    "name": "Betül Çelik",
+    "branchId": "S019",
+    "locationText": "Arnavutköy, İstanbul",
+    "location": {
+      "lat": 41.1864,
+      "lng": 28.7389
+    },
+    "needsDisabilitySupport": false
+  },
+  {
+    "id": "C151",
+    "name": "Ozan Yılmaz",
+    "branchId": "S014",
+    "locationText": "Esenler, İstanbul",
+    "location": {
+      "lat": 41.0542,
+      "lng": 28.8676
+    },
+    "needsDisabilitySupport": false
+  },
+  {
+    "id": "C152",
+    "name": "Buse Yılmaz",
+    "branchId": "S025",
+    "locationText": "Maltepe, İstanbul",
+    "location": {
+      "lat": 40.9339,
+      "lng": 29.165
+    },
+    "needsDisabilitySupport": false
+  },
+  {
+    "id": "C153",
+    "name": "Cem Yılmaz",
+    "branchId": "S018",
+    "locationText": "Esenler, İstanbul",
+    "location": {
+      "lat": 41.0542,
+      "lng": 28.8676
+    },
+    "needsDisabilitySupport": true
+  },
+  {
+    "id": "C154",
+    "name": "İrem Koç",
+    "branchId": "S007",
+    "locationText": "Beykoz, İstanbul",
+    "location": {
+      "lat": 41.1271,
+      "lng": 29.0978
+    },
+    "needsDisabilitySupport": false
+  },
+  {
+    "id": "C155",
+    "name": "Gamze Koç",
+    "branchId": "S024",
+    "locationText": "Ataşehir, İstanbul",
+    "location": {
+      "lat": 40.9833,
+      "lng": 29.1278
+    },
+    "needsDisabilitySupport": false
+  },
+  {
+    "id": "C156",
+    "name": "Ali Kaya",
+    "branchId": "S024",
+    "locationText": "Güngören, İstanbul",
+    "location": {
+      "lat": 41.0105,
+      "lng": 28.8741
+    },
+    "needsDisabilitySupport": false
+  },
+  {
+    "id": "C157",
+    "name": "Ayşe Aydın",
+    "branchId": "S002",
+    "locationText": "Sarıyer, İstanbul",
+    "location": {
+      "lat": 41.1664,
+      "lng": 29.05
+    },
+    "needsDisabilitySupport": false
+  },
+  {
+    "id": "C158",
+    "name": "Naz Yılmaz",
+    "branchId": "S024",
+    "locationText": "Bakırköy, İstanbul",
+    "location": {
+      "lat": 40.9804,
+      "lng": 28.8724
+    },
+    "needsDisabilitySupport": false
+  },
+  {
+    "id": "C159",
+    "name": "Ali Öztürk",
+    "branchId": "S029",
+    "locationText": "Bayrampaşa, İstanbul",
+    "location": {
+      "lat": 41.0349,
+      "lng": 28.9122
+    },
+    "needsDisabilitySupport": false
+  },
+  {
+    "id": "C160",
+    "name": "Merve Türkmen",
+    "branchId": "S001",
+    "locationText": "Bahçelievler, İstanbul",
+    "location": {
+      "lat": 40.9977,
+      "lng": 28.8506
+    },
+    "needsDisabilitySupport": true
+  },
+  {
+    "id": "C161",
+    "name": "Ahmet Kaya",
+    "branchId": "S012",
+    "locationText": "Başakşehir, İstanbul",
+    "location": {
+      "lat": 41.0837,
+      "lng": 28.8169
+    },
+    "needsDisabilitySupport": false
+  },
+  {
+    "id": "C162",
+    "name": "Gamze Işık",
+    "branchId": "S006",
+    "locationText": "Küçükçekmece, İstanbul",
+    "location": {
+      "lat": 41.0092,
+      "lng": 28.7757
+    },
+    "needsDisabilitySupport": false
+  },
+  {
+    "id": "C163",
+    "name": "Can Güler",
+    "branchId": "S005",
+    "locationText": "Sarıyer, İstanbul",
+    "location": {
+      "lat": 41.1664,
+      "lng": 29.05
+    },
+    "needsDisabilitySupport": false
+  },
+  {
+    "id": "C164",
+    "name": "Tuna Çelik",
+    "branchId": "S028",
+    "locationText": "Fatih, İstanbul",
+    "location": {
+      "lat": 41.0203,
+      "lng": 28.9339
+    },
+    "needsDisabilitySupport": true
+  },
+  {
+    "id": "C165",
+    "name": "Serkan Türkmen",
+    "branchId": "S021",
+    "locationText": "Gaziosmanpaşa, İstanbul",
+    "location": {
+      "lat": 41.0576,
+      "lng": 28.9153
+    },
+    "needsDisabilitySupport": true
+  },
+  {
+    "id": "C166",
+    "name": "Onur Aslan",
+    "branchId": "S001",
+    "locationText": "Pendik, İstanbul",
+    "location": {
+      "lat": 40.8796,
+      "lng": 29.258
+    },
+    "needsDisabilitySupport": false
+  },
+  {
+    "id": "C167",
+    "name": "Serkan Demir",
+    "branchId": "S004",
+    "locationText": "Sancaktepe, İstanbul",
+    "location": {
+      "lat": 41.009,
+      "lng": 29.2109
+    },
+    "needsDisabilitySupport": true
+  },
+  {
+    "id": "C168",
+    "name": "Fatma Demir",
+    "branchId": "S027",
+    "locationText": "Eyüp, İstanbul",
+    "location": {
+      "lat": 41.0551,
+      "lng": 28.9346
+    },
+    "needsDisabilitySupport": true
+  },
+  {
+    "id": "C169",
+    "name": "Onur Tan",
+    "branchId": "S025",
+    "locationText": "Kartal, İstanbul",
+    "location": {
+      "lat": 40.8999,
+      "lng": 29.1936
+    },
+    "needsDisabilitySupport": false
+  },
+  {
+    "id": "C170",
+    "name": "Cansu Tan",
+    "branchId": "S008",
+    "locationText": "Avcılar, İstanbul",
+    "location": {
+      "lat": 40.9792,
+      "lng": 28.7214
+    },
+    "needsDisabilitySupport": false
+  },
+  {
+    "id": "C171",
+    "name": "Hakan Aslan",
+    "branchId": "S024",
+    "locationText": "Beyoğlu, İstanbul",
+    "location": {
+      "lat": 41.0371,
+      "lng": 28.9774
+    },
+    "needsDisabilitySupport": false
+  },
+  {
+    "id": "C172",
+    "name": "Esra Türkmen",
+    "branchId": "S010",
+    "locationText": "Bağcılar, İstanbul",
+    "location": {
+      "lat": 41.0341,
+      "lng": 28.833
+    },
+    "needsDisabilitySupport": false
+  },
+  {
+    "id": "C173",
+    "name": "Fatma Işık",
+    "branchId": "S012",
+    "locationText": "Beykoz, İstanbul",
+    "location": {
+      "lat": 41.1271,
+      "lng": 29.0978
+    },
+    "needsDisabilitySupport": false
+  },
+  {
+    "id": "C174",
+    "name": "Berke Şahin",
+    "branchId": "S002",
+    "locationText": "Çatalca, İstanbul",
+    "location": {
+      "lat": 41.1421,
+      "lng": 28.4575
+    },
+    "needsDisabilitySupport": false
+  },
+  {
+    "id": "C175",
+    "name": "Gizem Tan",
+    "branchId": "S016",
+    "locationText": "Gaziosmanpaşa, İstanbul",
+    "location": {
+      "lat": 41.0576,
+      "lng": 28.9153
+    },
+    "needsDisabilitySupport": false
+  },
+  {
+    "id": "C176",
+    "name": "Serkan Aslan",
+    "branchId": "S026",
+    "locationText": "Bahçelievler, İstanbul",
+    "location": {
+      "lat": 40.9977,
+      "lng": 28.8506
+    },
+    "needsDisabilitySupport": false
+  },
+  {
+    "id": "C177",
+    "name": "Ahmet Can",
+    "branchId": "S020",
+    "locationText": "Bağcılar, İstanbul",
+    "location": {
+      "lat": 41.0341,
+      "lng": 28.833
+    },
+    "needsDisabilitySupport": false
+  },
+  {
+    "id": "C178",
+    "name": "Sibel Tan",
+    "branchId": "S024",
+    "locationText": "Kağıthane, İstanbul",
+    "location": {
+      "lat": 41.0717,
+      "lng": 28.9646
+    },
+    "needsDisabilitySupport": false
+  },
+  {
+    "id": "C179",
+    "name": "Selin Demir",
+    "branchId": "S024",
+    "locationText": "Çekmeköy, İstanbul",
+    "location": {
+      "lat": 41.0323,
+      "lng": 29.1695
+    },
+    "needsDisabilitySupport": true
+  },
+  {
+    "id": "C180",
+    "name": "Melis Aksoy",
+    "branchId": "S003",
+    "locationText": "Bahçelievler, İstanbul",
+    "location": {
+      "lat": 40.9977,
+      "lng": 28.8506
+    },
+    "needsDisabilitySupport": true
+  },
+  {
+    "id": "C181",
+    "name": "Berk Yalçın",
+    "branchId": "S004",
+    "locationText": "Çekmeköy, İstanbul",
+    "location": {
+      "lat": 41.0323,
+      "lng": 29.1695
+    },
+    "needsDisabilitySupport": false
+  },
+  {
+    "id": "C182",
+    "name": "Bora Işık",
+    "branchId": "S009",
+    "locationText": "Kartal, İstanbul",
+    "location": {
+      "lat": 40.8999,
+      "lng": 29.1936
+    },
+    "needsDisabilitySupport": false
+  },
+  {
+    "id": "C183",
+    "name": "Ahmet Güler",
+    "branchId": "S025",
+    "locationText": "Arnavutköy, İstanbul",
+    "location": {
+      "lat": 41.1864,
+      "lng": 28.7389
+    },
+    "needsDisabilitySupport": false
+  },
+  {
+    "id": "C184",
+    "name": "İrem Öztürk",
+    "branchId": "S022",
+    "locationText": "Kağıthane, İstanbul",
+    "location": {
+      "lat": 41.0717,
+      "lng": 28.9646
+    },
+    "needsDisabilitySupport": false
+  },
+  {
+    "id": "C185",
+    "name": "Hakan Özkan",
+    "branchId": "S010",
+    "locationText": "Adalar, İstanbul",
+    "location": {
+      "lat": 40.8747,
+      "lng": 29.1294
+    },
+    "needsDisabilitySupport": false
+  },
+  {
+    "id": "C186",
+    "name": "Yasemin Tan",
+    "branchId": "S023",
+    "locationText": "Küçükçekmece, İstanbul",
+    "location": {
+      "lat": 41.0092,
+      "lng": 28.7757
+    },
+    "needsDisabilitySupport": false
+  },
+  {
+    "id": "C187",
+    "name": "Can Kaya",
+    "branchId": "S003",
+    "locationText": "Sancaktepe, İstanbul",
+    "location": {
+      "lat": 41.009,
+      "lng": 29.2109
+    },
+    "needsDisabilitySupport": false
+  },
+  {
+    "id": "C188",
+    "name": "Mehmet Demir",
+    "branchId": "S013",
+    "locationText": "Avcılar, İstanbul",
+    "location": {
+      "lat": 40.9792,
+      "lng": 28.7214
+    },
+    "needsDisabilitySupport": true
+  },
+  {
+    "id": "C189",
+    "name": "Zeynep Kaya",
+    "branchId": "S012",
+    "locationText": "Kağıthane, İstanbul",
+    "location": {
+      "lat": 41.0717,
+      "lng": 28.9646
+    },
+    "needsDisabilitySupport": false
+  },
+  {
+    "id": "C190",
+    "name": "Tolga Yılmaz",
+    "branchId": "S020",
+    "locationText": "Sarıyer, İstanbul",
+    "location": {
+      "lat": 41.1664,
+      "lng": 29.05
+    },
+    "needsDisabilitySupport": true
+  },
+  {
+    "id": "C191",
+    "name": "Tolga Türkmen",
+    "branchId": "S014",
+    "locationText": "Sarıyer, İstanbul",
+    "location": {
+      "lat": 41.1664,
+      "lng": 29.05
+    },
+    "needsDisabilitySupport": false
+  },
+  {
+    "id": "C192",
+    "name": "Can Eren",
+    "branchId": "S024",
+    "locationText": "Bahçelievler, İstanbul",
+    "location": {
+      "lat": 40.9977,
+      "lng": 28.8506
+    },
+    "needsDisabilitySupport": false
+  },
+  {
+    "id": "C193",
+    "name": "Ali Türkmen",
+    "branchId": "S023",
+    "locationText": "Ataşehir, İstanbul",
+    "location": {
+      "lat": 40.9833,
+      "lng": 29.1278
+    },
+    "needsDisabilitySupport": false
+  },
+  {
+    "id": "C194",
+    "name": "Deniz Yalçın",
+    "branchId": "S017",
+    "locationText": "Büyükçekmece, İstanbul",
+    "location": {
+      "lat": 41.0248,
+      "lng": 28.5854
+    },
+    "needsDisabilitySupport": true
+  },
+  {
+    "id": "C195",
+    "name": "Naz Eren",
+    "branchId": "S017",
+    "locationText": "Bayrampaşa, İstanbul",
+    "location": {
+      "lat": 41.0349,
+      "lng": 28.9122
+    },
+    "needsDisabilitySupport": true
+  },
+  {
+    "id": "C196",
+    "name": "Sena Yılmaz",
+    "branchId": "S016",
+    "locationText": "Gaziosmanpaşa, İstanbul",
+    "location": {
+      "lat": 41.0576,
+      "lng": 28.9153
+    },
+    "needsDisabilitySupport": true
+  },
+  {
+    "id": "C197",
+    "name": "Elif Demir",
+    "branchId": "S023",
+    "locationText": "Maltepe, İstanbul",
+    "location": {
+      "lat": 40.9339,
+      "lng": 29.165
+    },
+    "needsDisabilitySupport": true
+  },
+  {
+    "id": "C198",
+    "name": "Serkan Öztürk",
+    "branchId": "S017",
+    "locationText": "Bağcılar, İstanbul",
+    "location": {
+      "lat": 41.0341,
+      "lng": 28.833
+    },
+    "needsDisabilitySupport": false
+  },
+  {
+    "id": "C199",
+    "name": "Arda Aslan",
+    "branchId": "S021",
+    "locationText": "Arnavutköy, İstanbul",
+    "location": {
+      "lat": 41.1864,
+      "lng": 28.7389
+    },
+    "needsDisabilitySupport": false
+  },
+  {
+    "id": "C200",
+    "name": "Onur Polat",
+    "branchId": "S003",
+    "locationText": "Esenler, İstanbul",
+    "location": {
+      "lat": 41.0542,
+      "lng": 28.8676
+    },
+    "needsDisabilitySupport": true
+  }
+]

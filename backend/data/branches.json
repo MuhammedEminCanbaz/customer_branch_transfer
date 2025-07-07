@@ -1,0 +1,483 @@
+[
+  {
+    "id": "S001",
+    "name": "Adalar Şubesi",
+    "location": {
+      "lat": 40.8747,
+      "lng": 29.1294
+    },
+    "accessible": true,
+    "hasDisabilityUnit": false,
+    "services": [
+      "SV003",
+      "SV002",
+      "SV007",
+      "SV006",
+      "SV001"
+    ]
+  },
+  {
+    "id": "S002",
+    "name": "Arnavutköy Şubesi",
+    "location": {
+      "lat": 41.1864,
+      "lng": 28.7389
+    },
+    "accessible": true,
+    "hasDisabilityUnit": true,
+    "services": [
+      "SV007",
+      "SV004",
+      "SV002",
+      "SV001",
+      "SV006"
+    ]
+  },
+  {
+    "id": "S003",
+    "name": "Ataşehir Şubesi",
+    "location": {
+      "lat": 40.9833,
+      "lng": 29.1278
+    },
+    "accessible": true,
+    "hasDisabilityUnit": true,
+    "services": [
+      "SV002",
+      "SV007",
+      "SV006"
+    ]
+  },
+  {
+    "id": "S004",
+    "name": "Avcılar Şubesi",
+    "location": {
+      "lat": 40.9792,
+      "lng": 28.7214
+    },
+    "accessible": true,
+    "hasDisabilityUnit": false,
+    "services": [
+      "SV008",
+      "SV005",
+      "SV002",
+      "SV001"
+    ]
+  },
+  {
+    "id": "S005",
+    "name": "Bağcılar Şubesi",
+    "location": {
+      "lat": 41.0341,
+      "lng": 28.833
+    },
+    "accessible": true,
+    "hasDisabilityUnit": false,
+    "services": [
+      "SV001",
+      "SV006",
+      "SV004"
+    ]
+  },
+  {
+    "id": "S006",
+    "name": "Bahçelievler Şubesi",
+    "location": {
+      "lat": 40.9977,
+      "lng": 28.8506
+    },
+    "accessible": true,
+    "hasDisabilityUnit": false,
+    "services": [
+      "SV007",
+      "SV001",
+      "SV005"
+    ]
+  },
+  {
+    "id": "S007",
+    "name": "Bakırköy Şubesi",
+    "location": {
+      "lat": 40.9804,
+      "lng": 28.8724
+    },
+    "accessible": true,
+    "hasDisabilityUnit": true,
+    "services": [
+      "SV005",
+      "SV001",
+      "SV002",
+      "SV006",
+      "SV007"
+    ]
+  },
+  {
+    "id": "S008",
+    "name": "Başakşehir Şubesi",
+    "location": {
+      "lat": 41.0837,
+      "lng": 28.8169
+    },
+    "accessible": true,
+    "hasDisabilityUnit": true,
+    "services": [
+      "SV008",
+      "SV007",
+      "SV001",
+      "SV005"
+    ]
+  },
+  {
+    "id": "S009",
+    "name": "Bayrampaşa Şubesi",
+    "location": {
+      "lat": 41.0349,
+      "lng": 28.9122
+    },
+    "accessible": true,
+    "hasDisabilityUnit": false,
+    "services": [
+      "SV002",
+      "SV006",
+      "SV001"
+    ]
+  },
+  {
+    "id": "S010",
+    "name": "Beşiktaş Şubesi",
+    "location": {
+      "lat": 41.0441,
+      "lng": 29.0017
+    },
+    "accessible": true,
+    "hasDisabilityUnit": false,
+    "services": [
+      "SV008",
+      "SV003",
+      "SV002",
+      "SV004",
+      "SV007"
+    ]
+  },
+  {
+    "id": "S011",
+    "name": "Beykoz Şubesi",
+    "location": {
+      "lat": 41.1271,
+      "lng": 29.0978
+    },
+    "accessible": true,
+    "hasDisabilityUnit": true,
+    "services": [
+      "SV006",
+      "SV003",
+      "SV007"
+    ]
+  },
+  {
+    "id": "S012",
+    "name": "Beylikdüzü Şubesi",
+    "location": {
+      "lat": 41.0133,
+      "lng": 28.6489
+    },
+    "accessible": true,
+    "hasDisabilityUnit": false,
+    "services": [
+      "SV003",
+      "SV008",
+      "SV004",
+      "SV005",
+      "SV007"
+    ]
+  },
+  {
+    "id": "S013",
+    "name": "Beyoğlu Şubesi",
+    "location": {
+      "lat": 41.0371,
+      "lng": 28.9774
+    },
+    "accessible": false,
+    "hasDisabilityUnit": false,
+    "services": [
+      "SV007",
+      "SV001",
+      "SV006",
+      "SV005",
+      "SV008"
+    ]
+  },
+  {
+    "id": "S014",
+    "name": "Büyükçekmece Şubesi",
+    "location": {
+      "lat": 41.0248,
+      "lng": 28.5854
+    },
+    "accessible": true,
+    "hasDisabilityUnit": false,
+    "services": [
+      "SV005",
+      "SV007",
+      "SV003"
+    ]
+  },
+  {
+    "id": "S015",
+    "name": "Çatalca Şubesi",
+    "location": {
+      "lat": 41.1421,
+      "lng": 28.4575
+    },
+    "accessible": true,
+    "hasDisabilityUnit": true,
+    "services": [
+      "SV006",
+      "SV003",
+      "SV008",
+      "SV007"
+    ]
+  },
+  {
+    "id": "S016",
+    "name": "Çekmeköy Şubesi",
+    "location": {
+      "lat": 41.0323,
+      "lng": 29.1695
+    },
+    "accessible": true,
+    "hasDisabilityUnit": true,
+    "services": [
+      "SV008",
+      "SV005",
+      "SV001"
+    ]
+  },
+  {
+    "id": "S017",
+    "name": "Esenler Şubesi",
+    "location": {
+      "lat": 41.0542,
+      "lng": 28.8676
+    },
+    "accessible": true,
+    "hasDisabilityUnit": true,
+    "services": [
+      "SV003",
+      "SV001",
+      "SV006",
+      "SV004"
+    ]
+  },
+  {
+    "id": "S018",
+    "name": "Esenyurt Şubesi",
+    "location": {
+      "lat": 41.0412,
+      "lng": 28.6939
+    },
+    "accessible": true,
+    "hasDisabilityUnit": false,
+    "services": [
+      "SV003",
+      "SV001",
+      "SV008",
+      "SV005",
+      "SV004"
+    ]
+  },
+  {
+    "id": "S019",
+    "name": "Eyüp Şubesi",
+    "location": {
+      "lat": 41.0551,
+      "lng": 28.9346
+    },
+    "accessible": true,
+    "hasDisabilityUnit": false,
+    "services": [
+      "SV008",
+      "SV007",
+      "SV004",
+      "SV003",
+      "SV006"
+    ]
+  },
+  {
+    "id": "S020",
+    "name": "Fatih Şubesi",
+    "location": {
+      "lat": 41.0203,
+      "lng": 28.9339
+    },
+    "accessible": false,
+    "hasDisabilityUnit": false,
+    "services": [
+      "SV003",
+      "SV001",
+      "SV008",
+      "SV005"
+    ]
+  },
+  {
+    "id": "S021",
+    "name": "Gaziosmanpaşa Şubesi",
+    "location": {
+      "lat": 41.0576,
+      "lng": 28.9153
+    },
+    "accessible": true,
+    "hasDisabilityUnit": false,
+    "services": [
+      "SV002",
+      "SV005",
+      "SV008",
+      "SV001"
+    ]
+  },
+  {
+    "id": "S022",
+    "name": "Güngören Şubesi",
+    "location": {
+      "lat": 41.0105,
+      "lng": 28.8741
+    },
+    "accessible": true,
+    "hasDisabilityUnit": false,
+    "services": [
+      "SV006",
+      "SV002",
+      "SV008",
+      "SV005"
+    ]
+  },
+  {
+    "id": "S023",
+    "name": "Kadıköy Şubesi",
+    "location": {
+      "lat": 40.9903,
+      "lng": 29.0205
+    },
+    "accessible": true,
+    "hasDisabilityUnit": false,
+    "services": [
+      "SV004",
+      "SV005",
+      "SV002",
+      "SV006"
+    ]
+  },
+  {
+    "id": "S024",
+    "name": "Kağıthane Şubesi",
+    "location": {
+      "lat": 41.0717,
+      "lng": 28.9646
+    },
+    "accessible": true,
+    "hasDisabilityUnit": true,
+    "services": [
+      "SV001",
+      "SV004",
+      "SV006",
+      "SV008",
+      "SV002"
+    ]
+  },
+  {
+    "id": "S025",
+    "name": "Kartal Şubesi",
+    "location": {
+      "lat": 40.8999,
+      "lng": 29.1936
+    },
+    "accessible": true,
+    "hasDisabilityUnit": true,
+    "services": [
+      "SV001",
+      "SV006",
+      "SV003"
+    ]
+  },
+  {
+    "id": "S026",
+    "name": "Küçükçekmece Şubesi",
+    "location": {
+      "lat": 41.0092,
+      "lng": 28.7757
+    },
+    "accessible": true,
+    "hasDisabilityUnit": false,
+    "services": [
+      "SV001",
+      "SV007",
+      "SV006"
+    ]
+  },
+  {
+    "id": "S027",
+    "name": "Maltepe Şubesi",
+    "location": {
+      "lat": 40.9339,
+      "lng": 29.165
+    },
+    "accessible": false,
+    "hasDisabilityUnit": false,
+    "services": [
+      "SV002",
+      "SV004",
+      "SV003",
+      "SV008",
+      "SV005"
+    ]
+  },
+  {
+    "id": "S028",
+    "name": "Pendik Şubesi",
+    "location": {
+      "lat": 40.8796,
+      "lng": 29.258
+    },
+    "accessible": true,
+    "hasDisabilityUnit": false,
+    "services": [
+      "SV001",
+      "SV008",
+      "SV004",
+      "SV002",
+      "SV003"
+    ]
+  },
+  {
+    "id": "S029",
+    "name": "Sancaktepe Şubesi",
+    "location": {
+      "lat": 41.009,
+      "lng": 29.2109
+    },
+    "accessible": true,
+    "hasDisabilityUnit": false,
+    "services": [
+      "SV006",
+      "SV001",
+      "SV007",
+      "SV002"
+    ]
+  },
+  {
+    "id": "S030",
+    "name": "Sarıyer Şubesi",
+    "location": {
+      "lat": 41.1664,
+      "lng": 29.05
+    },
+    "accessible": true,
+    "hasDisabilityUnit": false,
+    "services": [
+      "SV002",
+      "SV003",
+      "SV004"
+    ]
+  }
+]
