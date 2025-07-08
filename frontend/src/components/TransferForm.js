@@ -1,51 +1,78 @@
-// src/components/TransferForm.js
-
 import { useState } from "react";
 
-function TransferForm() {
-    const [prompt, setPrompt] = useState("");
-    const [suggestedBranch, setSuggestedBranch] = useState(null);
-    const [loading, setLoading] = useState(false);
+// Haversine formülü (km cinsinden)
+function haversineDistance(coord1, coord2) {
+    const toRad = (deg) => (deg * Math.PI) / 180;
+    const R = 6371;
+    const dLat = toRad(coord2.lat - coord1.lat);
+    const dLng = toRad(coord2.lng - coord1.lng);
+
+    const a =
+        Math.sin(dLat / 2) ** 2 +
+        Math.cos(toRad(coord1.lat)) *
+        Math.cos(toRad(coord2.lat)) *
+        Math.sin(dLng / 2) ** 2;
+
+    const c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
+    return R * c;
+}
+
+function findNearestBranches(customer, allBranches, count = 5) {
+    if (!customer?.location || allBranches.length === 0) return [];
+
+    const distances = allBranches.map((branch) => {
+        const distance = haversineDistance(customer.location, branch.location);
+        return { ...branch, distance };
+    });
+
+    return distances.sort((a, b) => a.distance - b.distance).slice(0, count);
+}
+
+function TransferForm({ customer, branches }) {
+    const [promptText, setPromptText] = useState("");
+    const [submitted, setSubmitted] = useState(false);
 
     const handleSubmit = (e) => {
         e.preventDefault();
-        setLoading(true);
 
-        // Simülasyon: Gerçek LLM yerine örnek cevap
-        setTimeout(() => {
-            const fakeBranch = {
-                id: "S008",
-                name: "Maltepe Şubesi",
-                reason: "Bu şube dijital bankacılık ve yatırım danışmanlığı hizmetlerini sağlıyor."
-            };
-            setSuggestedBranch(fakeBranch);
-            setLoading(false);
-        }, 1500);
+        if (!promptText.trim()) {
+            alert("Lütfen talebinizi giriniz.");
+            return;
+        }
+
+        const nearest = findNearestBranches(customer, branches);
+        console.log("🔍 En yakın 5 şube:", nearest);
+        console.log("🧠 Müşteri mesajı:", promptText);
+        console.log("📍 Müşteri konumu:", customer.location);
+
+        setSubmitted(true);
     };
 
     return (
-        <div>
-            <h2>Müşteri Şube Değişiklik Talebi</h2>
+        <div style={{ marginTop: "2rem" }}>
+            <h2>📨 Şube Değişiklik Talebi</h2>
+
             <form onSubmit={handleSubmit}>
+                <label>
+                    Lütfen talebinizi yazınız (almak istediğiniz hizmetleri belirtiniz):
+                </label>
+                <br />
                 <textarea
-                    value={prompt}
-                    onChange={(e) => setPrompt(e.target.value)}
-                    placeholder="İsteklerinizi buraya yazınız..."
-                    rows={4}
-                    style={{ width: "100%", padding: "0.5rem" }}
+                    value={promptText}
+                    onChange={(e) => setPromptText(e.target.value)}
+                    rows={5}
+                    placeholder="Örn: Yatırım danışmanlığı ve dijital bankacılık desteği istiyorum..."
+                    style={{ width: "100%", marginTop: "0.5rem", padding: "0.5rem" }}
                 />
+                <br />
                 <button type="submit" style={{ marginTop: "1rem" }}>
-                    Şube Öner
+                    Devam Et
                 </button>
             </form>
 
-            {loading && <p>Öneri getiriliyor...</p>}
-
-            {suggestedBranch && (
-                <div style={{ marginTop: "1rem", border: "1px solid #ccc", padding: "1rem" }}>
-                    <h3>Önerilen Şube</h3>
-                    <p><strong>{suggestedBranch.name}</strong> (ID: {suggestedBranch.id})</p>
-                    <p>{suggestedBranch.reason}</p>
+            {submitted && (
+                <div style={{ marginTop: "1rem", color: "green" }}>
+                    ✅ Talebiniz alındı. Sistem en uygun şubeyi önerecek...
                 </div>
             )}
         </div>
