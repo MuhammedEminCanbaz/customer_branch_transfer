@@ -1,0 +1,23 @@
+# Ortak dışlamalar
+node_modules/
+.env
+.env.*
+*.log
+
+# OS ve editör dosyaları
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Build / Derleme klasörleri
+dist/
+build/
+
+# Geliştirme çıktıları
+coverage/
+*.local
+*.cache
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*

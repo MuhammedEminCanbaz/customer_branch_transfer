@@ -17,7 +17,7 @@ function App() {
 
   return (
     <>
-      <div className="app-header">Müşteri Devir Uygulaması</div>
+      <div className="app-header">Şube Sorgulama ve Devir Ekranı</div>
       <div className="app-container">
 
 
@@ -26,7 +26,6 @@ function App() {
         {selectedCustomer && (
           <>
             <TransferForm customer={selectedCustomer} branches={branches} />
-            <BranchList />
           </>
         )}
       </div>

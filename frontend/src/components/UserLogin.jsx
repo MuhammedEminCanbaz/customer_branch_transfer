@@ -61,8 +61,8 @@ function UserLogin({ onCustomerSelected }) {
 
     return (
         <div>
-            <h2>Müşteri Devir Ekranına Hoşgeldiniz</h2>
-            <label>İsim ve Soyisminizi girin:</label>
+            <h2>Müşteri Şube Sorgulama</h2>
+            <label style={{ fontWeight: 'bold' }}>İsim ve Soyisminizi girin:</label>
             <br />
             <input
                 type="text"
@@ -71,7 +71,7 @@ function UserLogin({ onCustomerSelected }) {
                 placeholder="Örn: Ayşe Yıldız"
             />
             <button onClick={handleSearch} style={{ marginLeft: "1rem" }}>
-                Doğrula
+                Sorgula
             </button>
 
             {selectedCustomer && (
