@@ -3,11 +3,10 @@ const path = require('path');
 const cookieParser = require('cookie-parser');
 const logger = require('morgan');
 
-
 const indexRouter = require('./routes/index');
 const usersRouter = require('./routes/users');
-const apiRouter = require('./routes/api');      // varsayılan route'un
-const llmRouter = require('./routes/llm');      // Gemini için oluşturduğumuz route
+const apiRouter = require('./routes/api');
+const llmRouter = require('./routes/llm');
 
 const app = express();
 
@@ -21,6 +20,6 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.use('/', indexRouter);
 app.use('/users', usersRouter);
 app.use('/api', apiRouter);
-app.use('/api/llm', llmRouter); // 🔥 En önemlisi burası
+app.use('/api/llm', llmRouter); // LLM entegrasyonu
 
 module.exports = app;

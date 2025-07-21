@@ -15,31 +15,33 @@ function haversineDistance(coord1, coord2) {
     return R * c;
 }
 
-function findNearestBranches(customer, branches, count = 5) {
-    if (!customer?.location) return [];
-    return branches
-        .filter((b) => b.id !== customer.branchId)
-        .map((b) => ({
-            ...b,
-            distance: haversineDistance(customer.location, b.location),
-        }))
-        .sort((a, b) => a.distance - b.distance)
-        .slice(0, count);
+function findNearestBranches(customer, allBranches, count = 5) {
+    if (!customer?.location || allBranches.length === 0) return [];
+
+    const distances = allBranches
+        .filter((branch) => branch.id !== customer.branchId)
+        .map((branch) => ({
+            ...branch,
+            distance: haversineDistance(customer.location, branch.location),
+        }));
+
+    return distances.sort((a, b) => a.distance - b.distance).slice(0, count);
 }
 
 function TransferForm({ customer, branches }) {
-    const [showModal, setShowModal] = useState(false);
+    const [showSurvey, setShowSurvey] = useState(false);
     const [answers, setAnswers] = useState({});
-    const [suggestion, setSuggestion] = useState("");
     const [loading, setLoading] = useState(false);
+    const [suggestion, setSuggestion] = useState("");
+    const [showResult, setShowResult] = useState(false);
 
     const handleAnswerChange = (serviceId, value) => {
-        setAnswers({ ...answers, [serviceId]: value });
+        setAnswers((prev) => ({ ...prev, [serviceId]: value }));
     };
 
     const handleSubmitSurvey = async () => {
         const selected = Object.entries(answers)
-            .filter(([_, value]) => value === "evet")
+            .filter(([_, val]) => val === "evet")
             .map(([id]) => services.find((s) => s.id === id)?.name)
             .filter(Boolean);
 
@@ -48,81 +50,120 @@ function TransferForm({ customer, branches }) {
             return;
         }
 
-        const message = `Müşteri şu hizmetleri almak istiyor: ${selected.join(", ")}`;
+        const customerMessage = `Müşteri şu hizmetleri almak istiyor: ${selected.join(", ")}`;
         const nearest = findNearestBranches(customer, branches);
 
         setLoading(true);
+        setShowSurvey(false);
         try {
             const res = await fetch("/api/llm/recommend", {
                 method: "POST",
                 headers: { "Content-Type": "application/json" },
                 body: JSON.stringify({
-                    customerMessage: message,
+                    customerMessage,
                     nearestBranches: nearest,
-                    needsDisabilitySupport: customer.needsDisabilitySupport
-                })
+                    needsDisabilitySupport: customer.needsDisabilitySupport,
+                }),
             });
 
             const text = await res.text();
-            const data = JSON.parse(text);
+            let data;
+            try {
+                data = JSON.parse(text);
+            } catch (e) {
+                console.error("JSON parse hatası:", text);
+                throw new Error("Sunucu geçersiz veri döndürdü.");
+            }
 
-            if (data.suggestion) setSuggestion(data.suggestion);
-            else setSuggestion("Öneri alınamadı.");
+            if (data.suggestion) {
+                setSuggestion(data.suggestion);
+                setShowResult(true);
+            } else {
+                setSuggestion("Öneri alınamadı.");
+            }
         } catch (err) {
-            console.error("LLM Hatası:", err);
+            console.error("LLM bağlantı hatası:", err);
             setSuggestion("Bir hata oluştu.");
+        } finally {
+            setLoading(false);
+        }
+    };
+
+    const handleTransfer = async () => {
+        const matchedBranch = branches.find((b) => suggestion.includes(b.name));
+        if (!matchedBranch) {
+            alert("Şube bilgisi yorumdan anlaşılamadı.");
+            return;
         }
 
-        setLoading(false);
-        setShowModal(false);
+        try {
+            const res = await fetch(`/api/customers/${customer.id}`, {
+                method: "PATCH",
+                headers: { "Content-Type": "application/json" },
+                body: JSON.stringify({ branchId: matchedBranch.id }),
+            });
+
+            if (!res.ok) throw new Error("Sunucu hatası");
+            alert("✅ Devir işlemi başarıyla tamamlandı.");
+            setSuggestion("");
+            setShowResult(false);
+        } catch (err) {
+            console.error("Devir hatası:", err);
+            alert("Bir hata oluştu.");
+        }
     };
 
     return (
         <div style={{ marginTop: "2rem" }}>
-            <h2>📨 Şube Devir İşlemi Yapmak İçin Anketi Doldurun</h2>
+            <h2>📨 Şube Devir İşlemi İçin Anket</h2>
 
-            <button
-                onClick={() => setShowModal(true)}
-                style={{
-                    backgroundColor: "#b30000",
-                    color: "#fff",
-                    padding: "0.5rem 1rem",
-                    border: "none",
-                    borderRadius: "6px",
-                    cursor: "pointer"
-                }}
-            >
-                Ankete Git
-            </button>
+            {!showSurvey && !loading && !showResult && (
+                <button
+                    onClick={() => setShowSurvey(true)}
+                    style={{
+                        background: "crimson",
+                        color: "white",
+                        padding: "0.6rem 1rem",
+                        border: "none",
+                        borderRadius: "8px",
+                        cursor: "pointer",
+                    }}
+                >
+                    Ankete Başla
+                </button>
+            )}
 
-            {showModal && (
+            {/* Anket Modal */}
+            {showSurvey && (
                 <div style={{
-                    position: "fixed",
-                    top: 0, left: 0, right: 0, bottom: 0,
-                    backgroundColor: "rgba(0, 0, 0, 0.5)",
-                    display: "flex",
-                    justifyContent: "center",
-                    alignItems: "center",
-                    zIndex: 1000
+                    position: "fixed", top: 0, left: 0, width: "100vw", height: "100vh",
+                    backgroundColor: "rgba(0,0,0,0.6)",
+                    display: "flex", justifyContent: "center", alignItems: "center",
+                    zIndex: 999
                 }}>
                     <div style={{
-                        backgroundColor: "#fff",
-                        borderRadius: "12px",
+                        background: "white",
                         padding: "2rem",
+                        borderRadius: "12px",
                         width: "90%",
                         maxWidth: "600px",
-                        boxShadow: "0 0 12px rgba(0,0,0,0.2)"
+                        maxHeight: "80vh",
+                        overflowY: "auto"
                     }}>
                         <h3>📝 Hizmet Anketi</h3>
-                        <p>Almak istediğiniz hizmetleri belirtiniz:</p>
-
+                        <p>Size aşağıdaki hizmetlerden hangileri önemli? Lütfen işaretleyin.</p>
                         {services.map((service) => (
                             <div key={service.id} style={{ marginBottom: "1rem" }}>
-                                <label>{`${service.name} hizmeti sizin için önemli mi?`}</label>
+                                <label style={{ fontWeight: "bold" }}>{service.name}</label><br />
                                 <select
                                     value={answers[service.id] || ""}
                                     onChange={(e) => handleAnswerChange(service.id, e.target.value)}
-                                    style={{ display: "block", marginTop: "0.5rem", padding: "0.3rem", width: "100%" }}
+                                    style={{
+                                        width: "100%",
+                                        padding: "0.5rem",
+                                        borderRadius: "6px",
+                                        border: "1px solid #ccc"
+                                    }}
                                 >
                                     <option value="">Seçiniz</option>
                                     <option value="evet">Evet</option>
@@ -130,51 +171,81 @@ function TransferForm({ customer, branches }) {
                                 </select>
                             </div>
                         ))}
-
-                        <div style={{ display: "flex", justifyContent: "flex-end", gap: "1rem" }}>
-                            <button
-                                onClick={handleSubmitSurvey}
-                                style={{
-                                    backgroundColor: "#b30000",
-                                    color: "#fff",
-                                    padding: "0.5rem 1rem",
-                                    border: "none",
-                                    borderRadius: "6px",
-                                    cursor: "pointer"
-                                }}
-                            >
-                                Devam Et
-                            </button>
-                            <button
-                                onClick={() => setShowModal(false)}
-                                style={{
-                                    backgroundColor: "#ccc",
-                                    color: "#000",
-                                    padding: "0.5rem 1rem",
-                                    border: "none",
-                                    borderRadius: "6px",
-                                    cursor: "pointer"
-                                }}
-                            >
-                                İptal
-                            </button>
-                        </div>
+                        <button
+                            onClick={handleSubmitSurvey}
+                            style={{
+                                marginTop: "1rem",
+                                background: "#2d6cdf",
+                                color: "white",
+                                padding: "0.6rem 1rem",
+                                border: "none",
+                                borderRadius: "8px",
+                                cursor: "pointer"
+                            }}
+                        >
+                            Gönder
+                        </button>
                     </div>
                 </div>
             )}
 
-            {loading && <p>⏳ Öneri getiriliyor...</p>}
+            {/* Yükleniyor göstergesi */}
+            {loading && (
+                <p style={{ marginTop: "1rem", fontStyle: "italic" }}>
+                    ⏳ Öneri getiriliyor...
+                </p>
+            )}
 
-            {suggestion && (
+            {/* LLM Sonuç Modali */}
+            {showResult && (
                 <div style={{
-                    marginTop: "1rem",
-                    backgroundColor: "#fff2f2",
-                    border: "1px solid #ffcccc",
-                    padding: "1rem",
-                    borderRadius: "6px"
+                    position: "fixed", top: 0, left: 0, width: "100vw", height: "100vh",
+                    backgroundColor: "rgba(0,0,0,0.6)",
+                    display: "flex", justifyContent: "center", alignItems: "center",
+                    zIndex: 999
                 }}>
-                    <h3>🤖 Yapay Zeka Önerisi</h3>
-                    <p><strong>LLM cevabı:</strong> {suggestion}</p>
+                    <div style={{
+                        background: "white",
+                        padding: "2rem",
+                        borderRadius: "12px",
+                        width: "90%",
+                        maxWidth: "500px"
+                    }}>
+                        <h3>🤖 Yapay Zeka Önerisi</h3>
+                        <p><strong>Önerilen Şube:</strong> {suggestion}</p>
+                        <p>Bu şubeye devir işlemi yapılsın mı?</p>
+
+                        <div style={{ display: "flex", justifyContent: "space-between", marginTop: "1.5rem" }}>
+                            <button
+                                onClick={handleTransfer}
+                                style={{
+                                    background: "green",
+                                    color: "white",
+                                    border: "none",
+                                    padding: "0.5rem 1.2rem",
+                                    borderRadius: "8px"
+                                }}
+                            >
+                                Evet, Devret
+                            </button>
+
+                            <button
+                                onClick={() => {
+                                    setShowResult(false);
+                                    setSuggestion("");
+                                }}
+                                style={{
+                                    background: "crimson",
+                                    color: "white",
+                                    border: "none",
+                                    padding: "0.5rem 1.2rem",
+                                    borderRadius: "8px"
+                                }}
+                            >
+                                Vazgeç
+                            </button>
+                        </div>
+                    </div>
                 </div>
             )}
         </div>
