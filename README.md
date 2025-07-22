@@ -58,7 +58,7 @@ npm install
 
 ---
 
-## 🔐 .env Dosyası
+## .env Dosyası
 
 `backend` klasörüne `.env` adında bir dosya oluştur ve içine şu satırı ekle:
 
@@ -82,7 +82,7 @@ cd frontend
 npm run dev
 ```
 
-## 🧠 Kullanılan Teknolojiler
+## Kullanılan Teknolojiler
 
 - **React (Vite)** — Önyüz bileşen yapısı
 - **Node.js & Express** — API sunucusu
@@ -92,7 +92,7 @@ npm run dev
 
 ---
 
-## 📦 JSON Dosyaları
+## JSON Dosyaları
 
 | Dosya Adı             | Açıklama                            |
 |-----------------------|-------------------------------------|
@@ -104,7 +104,7 @@ Tüm dosyalar `backend/data` klasöründe yer alır.
 
 ---
 
-## 🧪 Kullanım Akışı
+## Kullanım Akışı
 
 1. Müşteri TC Kimlik No veya Müşteri No ile giriş yapar.
 2. Sistemdeki mevcut şube bilgileri görüntülenir.
@@ -115,7 +115,7 @@ Tüm dosyalar `backend/data` klasöründe yer alır.
 
 ---
 
-## 📝 Ek Bilgiler
+## Ek Bilgiler
 
 - Müşterilerde `needsDisabilitySupport` alanı bulunur.
 - Şubelerde `hasDisabilityUnit` alanı engelli erişimini belirtir.
@@ -125,13 +125,13 @@ Tüm dosyalar `backend/data` klasöründe yer alır.
 
 ---
 
-## 📮 Katkıda Bulun
+## Katkıda Bulun
 
 Bu proje eğitim amaçlıdır. İstek, öneri veya katkılar için `issue` ya da `pull request` gönderebilirsiniz.
 
 ---
 
-## 🛡️ Lisans
+## Lisans
 
 Bu proje telif hakkı sahibine aittir. Ticari kullanım için izin gerektirir.
 
